@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(C-79) Project - Pizzeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#">Pizzeria</a>
+        <div class="topnav-right">
+            <a href="#home">Home</a>
+         <a href="#viewblock">View Menu</a>
+         <a href="#addTopings">Add Menu</a>
+         <a href="#contactus">Contact Us</a>
+        </div>
+    </div>
+    <div class="row" id="home">
+
+
+    </div>
+    <div class="row" id="viewblock">
+        <div  class="img_div"> 
+            <img class="img-responsive"  src="images/pizza.png">
+        </div>
+    <div class="menu_div">
+        <button id="menu_list" onclick="getMenu()">Show Menu</button>
+        <br>
+        <br>
+        <div id="display_name"></div>
+    </div>
+    </div>
+    <div class="newRow" id="addTopings">
+        <div class="block1">
+            <br>
+            <br>
+            <br>
+            <input id="add_item" placeholder="Type here to add toppings"/></br>
+            <button id="add_toppings" onclick="add_item()" >Recommend a new Pizza</button>
+        </div>
+        
+    </div>
+     <div class="block2">
+         <div id="display_addmenu">
+         </div>
+     </div>
+    <div>
+        <img class="img-responsive"  src="images/topping.png">
+    </div>
+
+
+    <div class="newRow" id="contactus">
+        
+        <br>
+        <br>
+        <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470957.53577594424!2d88.37899610000001!3d22.7521754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89a24019266b9%3A0xce4ef72e6a7342ad!2sMohan%20Pur%2C%20Barrackpore%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1609939424619!5m2!1sen!2sin" width="1600" height="750" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <img src="Untitled.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>INDRANEEL MANDAL</h3>
+
+            <div class="contact_1">
+
+                <a href="mailto:my@gmail.com?Subject=Hi">
+                    <h5>&nbsp;&nbsp;mandalindraneel310@gmail.com</h5>
+                </a>
+
+                <a href="https://jynyhy9vu5r8xz5zy0utww-on.drv.tw/www.blog.com/#">
+                    <h5>&nbsp;&nbsp;mandalindraneel310@instagram</h5>
+                </a>
+            </div>
+
+
+    </div>
+
+
+</body>
+</html>
